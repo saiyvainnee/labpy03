@@ -82,3 +82,21 @@ laba bulan ke- 7 sebesar: 5000000.0
 laba bulan ke- 8 sebesar: 20000000.0
 Total laba adalah: 37000000.0
 ````
+## Alur Algoritma Program
+Inisialisasi:
+
+laba = 0 (untuk menyimpan laba per bulan).
+total_laba = 0 (untuk menghitung total laba).
+Looping Bulan 1-8:
+
+Program menghitung laba berdasarkan bulan:
+Bulan 1-2: laba = 0
+Bulan 3-4: laba = 1 juta
+Bulan 5-7: laba = 5 juta
+Bulan 8: laba = 20 juta
+Bulan 9: laba = 1 miliar (meskipun tidak digunakan di sini).
+Menampilkan Laba: Program menampilkan laba tiap bulan.
+
+Menghitung Total Laba: Total laba dihitung dengan menjumlahkan laba tiap bulan.
+
+Output: Program menampilkan total laba setelah 8 bulan.
