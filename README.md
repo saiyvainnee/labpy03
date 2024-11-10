@@ -29,15 +29,15 @@ Selesai
 PS C:\Users\SAYIDINA RAMADHAN\Desktop\vscode sayi>
 ````
 ## Alur algoritma Program
-Input Nilai N: Program dimulai dengan meminta pengguna untuk memasukkan nilai n, yang menentukan berapa banyak bilangan acak yang akan dihasilkan. Nilai n ini kemudian dikonversi menjadi tipe data integer menggunakan int(input(...)).
+-Input Nilai N: Program dimulai dengan meminta pengguna untuk memasukkan nilai n, yang menentukan berapa banyak bilangan acak yang akan dihasilkan. Nilai n ini kemudian dikonversi menjadi tipe data integer menggunakan int(input(...)).
 
-Looping: Program kemudian memasuki sebuah loop yang akan dijalankan sebanyak n kali (dimulai dari 1 hingga n), menggunakan for i in range(1, n + 1).
+-Looping: Program kemudian memasuki sebuah loop yang akan dijalankan sebanyak n kali (dimulai dari 1 hingga n), menggunakan for i in range(1, n + 1).
 
-Generate Bilangan Acak: Pada setiap iterasi dalam loop, program menghasilkan sebuah bilangan acak menggunakan random.uniform(1, 5). Fungsi random.uniform(1, 5) menghasilkan bilangan acak dengan nilai pecahan yang berada di antara 1 dan 5 (inklusif).
+-Generate Bilangan Acak: Pada setiap iterasi dalam loop, program menghasilkan sebuah bilangan acak menggunakan random.uniform(1, 5). Fungsi random.uniform(1, 5) menghasilkan bilangan acak dengan nilai pecahan yang berada di antara 1 dan 5 (inklusif).
 
-Menampilkan Hasil: Setelah bilangan acak dihasilkan, program mencetak hasilnya dalam format:
+-Menampilkan Hasil: Setelah bilangan acak dihasilkan, program mencetak hasilnya dalam format:
 
-Menampilkan indeks data ke-i (misalnya "data ke: 1") dan nilai bilangan acak yang dihasilkan.
+-Menampilkan indeks data ke-i (misalnya "data ke: 1") dan nilai bilangan acak yang dihasilkan.
 Setelah itu, mencetak "Selesai" untuk menandakan bahwa proses untuk data tersebut telah selesai.
 Ulangi Proses: Langkah ini diulang hingga semua n data bilangan acak dihasilkan dan ditampilkan.
 
@@ -154,12 +154,12 @@ Terima kasih telah menggunakan ATM!
 PS C:\Users\SAYIDINA RAMADHAN\Desktop\vscode sayi>
 ````
 ## Alur algoritma
-Inisialisasi Saldo: Saldo awal diatur menjadi 1 juta.
+-Inisialisasi Saldo: Saldo awal diatur menjadi 1 juta.
 
-Menu Utama (Loop): Program menampilkan menu dengan dua pilihan:
+-Menu Utama (Loop): Program menampilkan menu dengan dua pilihan:
 
 1. Tarik Uang: Meminta jumlah penarikan, dan memeriksa apakah saldo cukup. Jika cukup, saldo dikurangi, jika tidak, menampilkan pesan saldo tidak mencukupi.
 2. Keluar: Program berhenti dan mencetak pesan terima kasih.
 Validasi Pilihan: Jika pengguna memilih selain 1 atau 2, program menampilkan pesan "Pilihan tidak valid".
 
-Loop Berulang: Program terus mengulang hingga pengguna memilih untuk keluar.
+-Loop Berulang: Program terus mengulang hingga pengguna memilih untuk keluar.
