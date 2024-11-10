@@ -100,3 +100,66 @@ Menampilkan Laba: Program menampilkan laba tiap bulan.
 Menghitung Total Laba: Total laba dihitung dengan menjumlahkan laba tiap bulan.
 
 Output: Program menampilkan total laba setelah 8 bulan.
+
+## latihan 3
+````python
+def atm():
+  saldo = 1000000
+
+  while True:
+    print("Saldo saat ini: Rp", saldo)
+    print("1. Tarik Uang")
+    print("2. Keluar")
+    pilihan = int(input("Pilih menu (1/2): "))
+
+    if pilihan == 1:
+      jumlah_tarik = int(input("Masukkan jumlah penarikan: "))
+      if jumlah_tarik <= saldo:
+        saldo -= jumlah_tarik
+        print("Penarikan berhasil!")
+      else:
+        print("Saldo tidak mencukupi!")
+    elif pilihan == 2:
+      print("Terima kasih telah menggunakan ATM!")
+      break
+    else:
+      print("Pilihan tidak valid!")
+
+atm()
+````
+````python
+Saldo saat ini: Rp 1000000
+1. Tarik Uang
+2. Keluar
+Pilih menu (1/2): 1
+Masukkan jumlah penarikan: 50000
+Penarikan berhasil!
+Saldo saat ini: Rp 950000
+1. Tarik Uang
+2. Keluar
+Pilih menu (1/2): 1
+Masukkan jumlah penarikan: 1500000
+Saldo tidak mencukupi!
+Saldo saat ini: Rp 950000
+1. Tarik Uang
+2. Keluar
+Pilih menu (1/2): 1
+Masukkan jumlah penarikan: 150000
+Penarikan berhasil!
+Saldo saat ini: Rp 800000
+1. Tarik Uang
+2. Keluar
+Pilih menu (1/2): 2
+Terima kasih telah menggunakan ATM!
+PS C:\Users\SAYIDINA RAMADHAN\Desktop\vscode sayi>
+````
+## Alur algoritma
+Inisialisasi Saldo: Saldo awal diatur menjadi 1 juta.
+
+Menu Utama (Loop): Program menampilkan menu dengan dua pilihan:
+
+1. Tarik Uang: Meminta jumlah penarikan, dan memeriksa apakah saldo cukup. Jika cukup, saldo dikurangi, jika tidak, menampilkan pesan saldo tidak mencukupi.
+2. Keluar: Program berhenti dan mencetak pesan terima kasih.
+Validasi Pilihan: Jika pengguna memilih selain 1 atau 2, program menampilkan pesan "Pilihan tidak valid".
+
+Loop Berulang: Program terus mengulang hingga pengguna memilih untuk keluar.
